@@ -50,6 +50,17 @@ app.get('/', (req, res) => {
   res.json({ message: 'Event Media Platform API is running!' });
 });
 
+// Global error handler — shows real errors in Render logs
+app.use((err, req, res, next) => {
+  console.error('GLOBAL ERROR:', err.stack);
+  res.status(500).json({ message: err.message });
+});
+
+// Handle unhandled promise rejections
+process.on('unhandledRejection', (reason) => {
+  console.error('UNHANDLED REJECTION:', reason);
+});
+
 const PORT = process.env.PORT || 5000;
 server.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);

@@ -80,9 +80,9 @@ Clubs and societies generate hundreds of photos and videos during events — but
 - **AWS S3** — cloud object storage for the actual image/video files
 
 ### DevOps
-- **Railway / Render** — backend hosting
+- **Render** — backend hosting
 - **Vercel** — frontend hosting
-- **Neon / Supabase** — hosted PostgreSQL database
+- **Neon** — hosted PostgreSQL database
 
 ---
 

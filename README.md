@@ -88,6 +88,8 @@ erDiagram
         Float[] descriptor
         Int userId FK
     }
+```
+
 ## 🏗️ System Architecture
 
 ```mermaid
@@ -110,3 +112,4 @@ flowchart LR
     API <-->|Prisma Queries| ORM
     ORM <-->|Read / Write| DB
     API <-->|Upload / Fetch Media| S3
+```

@@ -53,10 +53,6 @@ Clubs and societies generate hundreds of photos and videos during events — but
 | ☁️ Cloud Storage | All media stored on AWS S3 for scalability |
 | 💧 Watermarking | Auto-watermark on download based on club/event name and user role |
 
-### Bonus Features
-
-- ♾️ Infinite scrolling gallery
-- 📱 Responsive design (mobile-friendly)
 
 ---
 

@@ -2,6 +2,11 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false
+  },
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",

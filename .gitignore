@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Environment files (VERY IMPORTANT - contains your AWS keys!)
+.env
+*/.env
+backend/.env
+frontend/.env
+
+# Build files
+*/build/
+*/.next/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Prisma
+backend/prisma/migrations/

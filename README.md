@@ -88,3 +88,25 @@ erDiagram
         Float[] descriptor
         Int userId FK
     }
+## 🏗️ System Architecture
+
+```mermaid
+flowchart LR
+    subgraph Client Side
+        UI[React.js Frontend]
+    end
+
+    subgraph Server Side
+        API[Node.js & Express Backend]
+        ORM[Prisma ORM]
+    end
+
+    subgraph Data & Storage
+        DB[(PostgreSQL Database)]
+        S3[(Cloud Storage / S3)]
+    end
+
+    UI <-->|HTTP Requests| API
+    API <-->|Prisma Queries| ORM
+    ORM <-->|Read / Write| DB
+    API <-->|Upload / Fetch Media| S3

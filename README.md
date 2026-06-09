@@ -88,4 +88,3 @@ erDiagram
         Float[] descriptor
         Int userId FK
     }
-```

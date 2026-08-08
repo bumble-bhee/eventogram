@@ -1,14 +1,3 @@
-## ⚠️ Important Note
-
-To register a new user, the **Authorization Passwords** for the respective roles are provided on **Page 2 of the submitted PPT**.
-
-**Kindly refer to the PPT during evaluation.**
-
-
-
-
-
-
 # Eventogram 📸
 
 > A centralized **Event & Media Management Platform** where clubs, photographers, and members can upload, organize, access, and interact with media content — powered by AI-based image tagging and facial recognition.

@@ -444,8 +444,9 @@ eventogram/
 
 ---
 
-## Contributors
+## Author
 
-- [@bumble-bhee](https://github.com/bumble-bhee)
+- Abhinav Jayale [@bumble-bhee](https://github.com/bumble-bhee)
+  
 
 ---
